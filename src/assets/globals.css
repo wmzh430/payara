@@ -1,0 +1,128 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Satoshi";
+  font-style: normal;
+  src: url("./fonts/Satoshi-Regular.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Black";
+  font-style: normal;
+  src: url("./fonts/Satoshi-Black.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  font-style: normal;
+  src: url("./fonts/Satoshi-Bold.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Light";
+  font-style: normal;
+  src: url("./fonts/Satoshi-Light.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  font-style: normal;
+  src: url("./fonts/Satoshi-Medium.otf");
+}
+
+@theme {
+  --font-satoshi: "Satoshi";
+  --font-satoshi-light: "Satoshi-Light";
+  --font-satoshi-medium: "Satoshi-Medium";
+  --font-satoshi-bold: "Satoshi-Bold";
+  --font-satoshi-black: "Satoshi-Black";
+
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+  --text-l: 36px;
+  --text-l--line-height: 40px;
+  --text-xl: 48px;
+  --text-xl--line-height: 48px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --radius-x-small: 4px;
+  --radius-small: 8px;
+  --radius-medium: 16px;
+  --radius-large: 32px;
+  --radius-x-large: 64px;
+  --radius-pill: 99999px;
+
+  --color-red-50: #fef2f2;
+  --color-red-100: #fee2e2;
+  --color-red-200: #fecaca;
+  --color-red-300: #fca5a5;
+  --color-red-400: #f87171;
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+  --color-red-800: #991b1b;
+  --color-red-900: #7f1d1d;
+  --color-red-950: #450a0a;
+  --color-orange-50: #fff7ed;
+  --color-orange-100: #ffedd5;
+  --color-orange-200: #fed7aa;
+  --color-orange-300: #fdba74;
+  --color-orange-400: #fb923c;
+  --color-orange-500: #f97316;
+  --color-orange-600: #ea580c;
+  --color-orange-700: #c2410c;
+  --color-orange-800: #9a3412;
+  --color-orange-900: #7c2d12;
+  --color-orange-950: #431407;
+  --color-green-50: #f0fdf4;
+  --color-green-100: #dcfce7;
+  --color-green-200: #bbf7d0;
+  --color-green-300: #86efac;
+  --color-green-400: #4ade80;
+  --color-green-500: #22c55e;
+  --color-green-600: #16a34a;
+  --color-green-700: #15803d;
+  --color-green-800: #166534;
+  --color-green-900: #14532d;
+  --color-green-950: #052e16;
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f1f5f9;
+  --color-gray-200: #e2e8f0;
+  --color-gray-300: #cbd5e1;
+  --color-gray-400: #94a3b8;
+  --color-gray-500: #64748b;
+  --color-gray-600: #475569;
+  --color-gray-700: #334155;
+  --color-gray-800: #1e293b;
+  --color-gray-900: #0f172a;
+  --color-gray-950: #020617;
+  --color-violet-50: #f5f3ff;
+  --color-violet-100: #ede9fe;
+  --color-violet-200: #ddd6fe;
+  --color-violet-300: #c4b5fd;
+  --color-violet-400: #a78bfa;
+  --color-violet-500: #8b5cf6;
+  --color-violet-600: #7c3aed;
+  --color-violet-700: #6d28d9;
+  --color-violet-800: #5b21b6;
+  --color-violet-900: #4c1d95;
+  --color-violet-950: #2e1065;
+
+  --shadow-sm-light: 0px 4px 14px 0px var(--color-violet-400);
+  --shadow-base-light: 0px 4px 24px 0px var(--color-violet-400);
+  --shadow-md-light: 0px 4px 34px 0px var(--color-violet-400);
+  --shadow-l-light: 0px 4px 44px 0px var(--color-violet-400);
+  --shadow-xl-light: 0px 4px 54px 0px var(--color-violet-400);
+  --shadow-2xl-light: 0px 4px 64px 0px var(--color-violet-400);
+  --shadow-sm-dark: 0px 4px 74px 0px var(--color-gray-950);
+  --shadow-base-dark: 0px 4px 24px 0px var(--color-gray-950);
+  --shadow-md-dark: 0px 4px 34px 0px var(--color-gray-950);
+  --shadow-l-dark: 0px 4px 44px 0px var(--color-gray-950);
+  --shadow-xl-dark: 0px 4px 54px 0px var(--color-gray-950);
+  --shadow-2xl-dark: 0px 4px 74px 0px var(--color-gray-950);
+}
