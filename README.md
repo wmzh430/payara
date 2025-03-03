@@ -1,6 +1,7 @@
 ## Introduction
 
 This project is a modern subscription pricing UI that presents three different plans: Freebie, Professional, and Enterprise. The design is optimized for a seamless user experience, allowing users to quickly compare features and select the best plan for their needs.
+- live demo: [https://payara-nu.vercel.app/](https://payara-nu.vercel.app/)
 
 <img src="./public/images/light.png" width="800px" />
 <img src="./public/images/dark.png" width="800px" />
